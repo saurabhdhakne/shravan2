@@ -1,0 +1,306 @@
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  color: #333333;
+  overflow-x: hidden;
+}
+.logo {
+  width: 50px;
+}
+.main {
+  min-height: 100vh;
+}
+.carousel img {
+  width: 100%;
+}
+.nav {
+  z-index: 99;
+  font-family: "Kanit", sans-serif;
+  cursor: pointer;
+  transition: 0.5s all;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-top: 2vh;
+}
+.nav .active {
+  border-bottom: 5px solid #ec6041;
+}
+
+.nav .mid a:hover {
+  border-bottom: 5px dotted #ec6041;
+  transition: 0.2s all;
+}
+.button-o {
+  height: 50px;
+  width: 150px;
+}
+.button-o .btn {
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  transition: 0.5s all;
+  color: #ec6041;
+  font-weight: bold;
+}
+.button-oo .btn {
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  transition: 0.5s all;
+  font-weight: bold;
+}
+.btn-0 {
+  background: #ffffff;
+  border: 2px solid #ec6041;
+  box-sizing: border-box;
+  z-index: 4;
+  border-radius: 2px;
+}
+.button-oo .btn-0 {
+  color: #ffffff;
+  background: #ec6041;
+}
+.btn-1 {
+  background: rgba(236, 96, 65, 0.6);
+  z-index: 3;
+  margin-top: 4px;
+  margin-left: 4px;
+}
+.btn-2 {
+  background: rgba(236, 96, 65, 0.3);
+  z-index: 2;
+  margin-top: 8px;
+  margin-left: 8px;
+}
+.btn-0:hover {
+  transition: 0.5s all;
+  color: #ffffff;
+  background: #ec6041;
+}
+.button-oo .btn-0:hover {
+  transition: 0.5s all;
+  color: #ec6041;
+  background: #ffffff;
+}
+
+.button-o .btn:focus,
+.button-oo .btn:focus {
+  margin-top: 2px;
+  margin-left: 2px;
+  transition: 0.5s all;
+}
+.btn-touch,
+.btn-touch .btn-0,
+.btn-touch .btn-1,
+.btn-touch .btn-2 {
+  width: 168;
+}
+.nav .btn {
+}
+.nav a {
+  color: black;
+  font-size: 1.2em;
+}
+.nav a:hover {
+  text-decoration: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ec6041;
+  /* border-radius: 10px; */
+}
+.navMob,
+.navMob a {
+  display: none;
+}
+
+.sidenav {
+  margin-top: 10vh;
+  height: 90vh;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  font-family: "Kanit", sans-serif;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  color: #e7e7e7;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.footer2 {
+  background: black;
+  color: snow;
+}
+.classinitial {
+}
+.classfinal {
+  background: #302f2f;
+  color: snow;
+  transition: 0.5s all;
+}
+.classfinal a {
+  color: snow;
+}
+.carousel {
+  margin-top: 5vh;
+}
+.carousel img {
+  width: 100%;
+  border-radius: 5px;
+}
+.carousel .data-head {
+  z-index: 5;
+  position: absolute;
+  width: 125%;
+  top: 20%;
+  right: -30%;
+  padding: 40px;
+  background: #ffffff;
+  border-radius: 5px;
+  box-shadow: 15px 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+.carousel2 .data-head {
+  left: -30%;
+  box-shadow: -15px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.carousel .data-head h1 {
+  font-size: 5em;
+  font-family: "Poppins", cursive;
+}
+.carousel .data-head h2 {
+  font-size: 3em;
+  font-family: "Kanit", cursive;
+  font-weight: bold;
+}
+.carousel p {
+}
+.carousel .data-head span {
+  color: #ec6041;
+}
+
+.content-head h1 {
+  font-size: 5em;
+  font-family: "Poppins", cursive;
+}
+.content-head span {
+  color: #ec6041;
+  border-bottom: 8px solid #ec6041;
+}
+.products {
+  padding: 10vh 5%;
+}
+.products h1 {
+  font-size: 5em;
+  font-family: "Poppins", cursive;
+}
+.products img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.products h2 {
+  border-bottom: 3px solid #ec6041;
+}
+.products .product p {
+  font-size: 0.8em;
+}
+.products .btn {
+  height: 38px;
+  font-size: 0.8em;
+}
+.our-success {
+  height: 100vh;
+  background: url("./../images/ourSuccess.jpg");
+  background-size: auto 100%;
+  background-position: fixed;
+  background-attachment: fixed;
+  overflow-y: hidden;
+  color: white;
+}
+@media screen and (max-height: 720px) {
+  .sidenav {
+    padding-top: 10vh;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 720px) {
+  #nav a,
+  #nav img,
+  #nav,
+  .classfinal,
+  .classinitial {
+    display: none;
+    background: none;
+    overflow: none;
+  }
+  #carouselExampleControls {
+    margin-top: 0vh;
+  }
+  .navMob {
+    display: block;
+    z-index: 999;
+    margin-top: 15px;
+  }
+  .navMob a {
+    color: rgb(0, 0, 0);
+    display: block;
+  }
+  .footer {
+    padding: 5vh 5%;
+    text-align: center;
+  }
+  .footer .btn {
+    padding: 15px 10%;
+  }
+  .photography h1 {
+    font-size: 10vw;
+  }
+
+  .desktop-only,
+  .desktop-only * {
+    margin-top: -500px;
+    display: none;
+  }
+}
