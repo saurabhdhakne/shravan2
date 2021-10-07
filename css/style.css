@@ -372,20 +372,33 @@ body {
   color: #ec6041;
 }
 @media screen and (max-height: 720px) {
+  body {
+    overflow-x: hidden;
+  }
   .sidenav {
     padding-top: 20vh;
   }
   .sidenav a {
     font-size: 18px;
   }
+  .navMob {
+    display: block;
+    z-index: 999;
+    margin-top: 3vh;
+  }
+  .navMob a {
+    color: rgb(0, 0, 0);
+    display: block;
+  }
   .navMob h1 {
     display: inline-block;
     font-size: 1em;
-    color: black;
+    color: rgb(255, 255, 255);
     font-weight: bold;
-  }
-  .navMob h1 span {
-    color: #ec6041;
+    background: #ec6041;
+    padding: 40px 10px 20px 10px;
+    margin-top: -5vh;
+    border-radius: 0px 0px 10px 10px;
   }
   .text-orange {
     color: #ec6041;
@@ -404,15 +417,7 @@ body {
   #carouselExampleControls {
     margin-top: 0vh;
   }
-  .navMob {
-    display: block;
-    z-index: 999;
-    margin-top: 15px;
-  }
-  .navMob a {
-    color: rgb(0, 0, 0);
-    display: block;
-  }
+
   .footer {
     padding: 5vh 5%;
     text-align: center;

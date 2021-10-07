@@ -20,16 +20,16 @@
 <body>
 
 <div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <p> <a href="/"> <i class="fa fa-home font-weight-bold mr-1" aria-hidden="true"></i> Home </a> </p>
-  <p> <a href="gallery.php"> <i class="fa fa-phone h5 font-weight-bold mr-1" aria-hidden="true"></i> Gallery </a> </p>
-  <p> <a href="products.html"> <i class="fa fa-photo font-weight-bold mr-1" aria-hidden="true"></i> Our Products </a> </p>
-  <p> <a href="certification.html"> <i class="fa fa-black-tie font-weight-bold mr-1" aria-hidden="true"></i> Certification </a> </p>
-  <p> <a href="report.html"> <i class="fa fa-black-tie font-weight-bold mr-1" aria-hidden="true"></i> Annual Report </a> </p>
-  <p> <a href="contact.html"> <i class="fa fa-black-tie font-weight-bold mr-1" aria-hidden="true"></i> Contact Us </a> </p>
-  <p> <a href="about.html"> <i class="fa fa-info-circle h5 font-weight-bold mr-1" aria-hidden="true"></i> About us</a> </p>
-  <p> <a href="https://instagram.com/shravan.y?utm_medium=copy_link" target="__blank"> <i class="fa fa-instagram mr-1" aria-hidden="true"></i> INSTAGRAM </a> </p>
-</div>
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <p> <a href="/"> <i class="fa fa-home font-weight-bold mr-1" aria-hidden="true"></i> Home </a> </p>
+    <p> <a href="gallery.php"> <i class="fa fa-photo h5 font-weight-bold mr-1" aria-hidden="true"></i> Gallery </a> </p>
+    <p> <a href="products.html"> <i class="fa fa-suitcase font-weight-bold mr-1" aria-hidden="true"></i> Our Products </a> </p>
+    <p> <a href="certification.html"> <i class="fa fa-graduation-cap font-weight-bold mr-1" aria-hidden="true"></i> Certification </a> </p>
+    <p> <a href="report.html"> <i class="fa fa-pie-chart font-weight-bold mr-1" aria-hidden="true"></i> Annual Report </a> </p>
+    <p> <a href="contact.html"> <i class="fa fa-phone font-weight-bold mr-1" aria-hidden="true"></i> Contact Us </a> </p>
+    <p> <a href="about.html"> <i class="fa fa-info-circle h5 font-weight-bold mr-1" aria-hidden="true"></i> About us</a> </p>
+    <p> <a href="https://instagram.com/shravan.y?utm_medium=copy_link" target="__blank"> <i class="fa fa-instagram mr-1" aria-hidden="true"></i> INSTAGRAM </a> </p>
+  </div>
 
 <div class="container-fluid">
     <div class="row ">
@@ -41,8 +41,8 @@
             </div>
             
             <div class="col-md-8 text-center d-flex justify-content-center mt-3 mid">
-              <p class="mr-4"> <a href="home.html" class="active"> Home </a> </p>
-              <p class="mr-4"> <a href="gallery.php"> Gallery </a> </p>
+              <p class="mr-4"> <a href="home.html"> Home </a> </p>
+              <p class="mr-4"> <a href="gallery.php" class="active"> Gallery </a> </p>
               <p class="mr-4"> <a href="products.html"> Products </a> </p>
               <p class="mr-4"> <a href="certification.html"> Certification </a> </p>
               <p class="mr-4"> <a href="report.php"> Annual Report </a> </p>
