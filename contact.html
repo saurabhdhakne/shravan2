@@ -9,13 +9,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://use.fontawesome.com/db006bf474.js"></script>
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/lightbox.css">
     <link rel="stylesheet" href="./css/style-mobile.css">
     <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <style>
-        
-    </style>
 </head>
 <body>
 
@@ -86,71 +82,60 @@
                 <h1 class=display-3> Aurangabad <span>  Distillery</span>   Limited </h1>
         </div>
         <div class="col-md-8 offset-md-2 col-10 offset-1 about-m-base card d-flex justify-content-center align-items-center">
-                <h1> Our <span> Gallery </span> </h1>
+                <h1> Contact &nbsp;&nbsp;<span>Us </span> </h1>
         </div>
     </div>
 </div>
 
-    <!-- Gallery Section Begin -->
-    <div class="container-fluid gallery-section gallery-page p-4 mt-5">
-            <div class="gallery2 row " id="gdata">
+<div class="container-fluid">
+    <div class="row products mb-5">
+
+    <div class="col-md-6 p-2 mt-5">
+    <div class="product">
+        
+        <div class="col-md-11 offset-md-1 content-head">
+        <h2 class="col-md-4 pl-0">Address </h2>
+        <h3 class="text-justify col-md-11 p-0 mt-4"> 
+            <br> Aurangabad Distillery, 
+            <br> Walchandnagar, 
+            <br> Maharashtra 413114
             
-            </div>
-        <div class="col-md-4 offset-md-4 mt-5 mb-5 text-center d-flex justify-content-center">
-            <div class="button-o d-flex ">
-                <button class="btn btn-0 d-flex justify-content-center align-items-center" onClick="pagination()"> Show More</button>
-                <button class="btn btn-1"> </button>
-                <button class="btn btn-2"> </button>
-            </div>
+        </h3>
+        
+
         </div>
+
+    </div>
     </div>
 
-    <div class="modal fade gallery-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <img src="" id="lightImg"  alt="">
-            </div>
+    <div class="col-md-6 p-2 mt-5">
+        <div class="product">
+
+            <div class="col-md-12 content-head">
+                <h2 class="col-md-4 pl-0">Call Us </h2>
+                <h3 class="text-justify col-md-11 p-0 mt-4"> 
+                    <br> +91 8208124471
+                    <br> 02118 252 407
+
+                </h3>
+               
+
+            </div>     
+        
         </div>
+    </div>   
+
+    <div class="col-md-12">
+        <div class="col-md-10 offset-md-1 mt-5" data-aos-duration="5000" data-aos ="fade-down">
+            <iframe style="height: 450px; border:0px; width: 100%; border-radius: 5px; box-shadow: 2px 5px 10px rgba(0, 0, 0, .4);" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3793.75789799125!2d74.7887776148856!3d18.036435887692697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2722e02332856b5f!2sAurangabad%20Distillery%20Walchandnagar!5e0!3m2!1sen!2sin!4v1633001874296!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+      </div>
     </div>
-    <?php
-        $directory = "images";
-        $images = glob($directory . "/*.jpg");
-    ?>
-    <script>
-        var js_data = '<?php echo json_encode($images); ?>';
-        var data = JSON.parse(js_data );
-        console.log(data);
 
-        total = data.length - 1;
-        current = 11;
-        limit = 10;
-        prev = 0;
-        
-        function pagination(){
-          prev = current+1;
-          current += limit; 
-          if(current > total){ 
-            current = total;
-            document.getElementById('showMore').style.display = "none";
-          }
-          for(let i=prev ;i <= current; i++){
-              document.getElementById('gdata').innerHTML += '<div data-toggle="modal" data-target=".gallery-modal-lg" onclick="openImg(" id'+ data[i] +'")" class="col-md-2" id=" id'+ data[i] +'" ><a class="thumb-icon image-popup">  <img src="'+ data[i] +'" width="100%" alt="" "><i class="fa fa-picture-o fa-style"> </i></a></div>' 
-          }
-          
-        }
-
-        function paginationOnLoad(){
-            
-          for(let i=prev ;i <= current; i++){
-            document.getElementById('gdata').innerHTML += '<div data-toggle="modal" data-target=".gallery-modal-lg" onclick="openImg('+ i +')" class="col-md-2" id=" id'+ data[i] +'"><a class="thumb-icon image-popup">  <img src="'+ data[i] +'" width="100%" alt="" ><i class="fa fa-picture-o fa-style"> </i></a></div>' 
-          }
-          
-        }paginationOnLoad();
-        
-    </script>
-
+    </div>
+</div>
 
 <div class="container-fluid text-center pt-5 footer2 text-md-left">
+    
     <div class="container">
 
         <div class="row">
@@ -162,7 +147,7 @@
                 <p>
                   "Aurangabad Distillery Limited "
                   <br>
-                   We are one of the leading manufacturers of Rectified Spirit, Denatured Spirit and Extra Neutral Alcohol. Apportion of our production of molasses from sugar factory is used as raw material for manufacture of spirit i.e. Rectified Spirit, Denatured Spirit and Extra Neutral Alcohol which is manufactured by the Continuous Fermentation & Multipressure Vacuum Distillation and also effecting sells of carbon dioxide (CO2) and fusel oil which are produced as by-products during distillation process of Spirit.
+                  We are one of the leading manufacturers of Rectified Spirit, Denatured Spirit and Extra Neutral Alcohol. Apportion of our production of molasses from sugar factory is used as raw material for manufacture of spirit i.e. Rectified Spirit, Denatured Spirit and Extra Neutral Alcohol which is manufactured by the Continuous Fermentation & Multipressure Vacuum Distillation and also effecting sells of carbon dioxide (CO2) and fusel oil which are produced as by-products during distillation process of Spirit.
                 </p>
             </div>
 
@@ -191,23 +176,17 @@
             </div>
 
         </div>
-    </div> 
+    </div>
 
     <div class="footer-copyright text-center text-white-50 py-3">
-    © 2021 Copyright:
-    <a class="text-white" href="">Saurabh</a>
+       © 2021 Copyright:
+        <a class="text-white" href="">Saurabh</a>
+    </div>
+
 </div>
-<script>
-    function openImg(id){
-        console.log(data[id])
-        document.getElementById('lightImg').src = data[id];
-        // document.getElementById('myLightbox').style = "display:block";
-    }
-</script>
-<script src="./scripts/nav.js"></script>
-
+  
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
-
+<script src="./scripts/nav.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
   AOS.init();

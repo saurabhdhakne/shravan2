@@ -20,7 +20,7 @@
   <p> <a href="home.html"> <i class="fa fa-home font-weight-bold mr-1" aria-hidden="true"></i> Home </a> </p>
   <p> <a href="gallery.php"> <i class="fa fa-phone h5 font-weight-bold mr-1" aria-hidden="true"></i> Gallery </a> </p>
   <p> <a href="product.html"> <i class="fa fa-photo font-weight-bold mr-1" aria-hidden="true"></i> Our Products </a> </p>
-  <p> <a href="certification.php"> <i class="fa fa-video-camera font-weight-bold mr-1" aria-hidden="true"></i> Certification </a> </p>
+  <p> <a href="certification.html"> <i class="fa fa-video-camera font-weight-bold mr-1" aria-hidden="true"></i> Certification </a> </p>
   <p> <a href="report.php"> <i class="fa fa-video-camera font-weight-bold mr-1" aria-hidden="true"></i> Annual Report </a> </p>
   <p> <a href="contact.html"> <i class="fa fa-black-tie font-weight-bold mr-1" aria-hidden="true"></i> Contact Us </a> </p>
   <p> <a href="about.html"> <i class="fa fa-info-circle h5 font-weight-bold mr-1" aria-hidden="true"></i> ABOUT </a> </p>
@@ -35,7 +35,7 @@
                     <p class="mr-4"> <a href="home.html"> Home </a> </p>
                     <p class="mr-4"> <a href="gallery.php"> Gallery </a> </p>
                     <p class="mr-4"> <a href="product.php"> Products </a> </p>
-                    <p class="mr-4"> <a href="certification.php"> Certification </a> </p>
+                    <p class="mr-4"> <a href="certification.html"> Certification </a> </p>
                     <p class="mr-4"> <a href="report.php"> Annual Report </a> </p>
                 </div>
                 <div class="col-md-2 text-center">
