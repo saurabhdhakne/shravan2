@@ -55,7 +55,7 @@
                 <div class="col-3 h3 text-light">
                 <a onclick="openNav()"> <i class="fa fa-bars font-weight-bold " aria-hidden="true"></i> </a>
                 </div>
-                <div class="col-6 text-center">
+                <div class="col-6 text-center"  onclick="window.location='/'">
                 <a href="index.html"> <img src="./images/logo.png" width="50px" alt=""> </a>
                 </div>
                 <div class="col-3 text-right h3 d-flex">
