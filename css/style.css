@@ -235,6 +235,9 @@ body {
   font-size: 5em;
   font-family: "Poppins", cursive;
 }
+.products b {
+  font-size: 1.2em;
+}
 .products img {
   width: 100%;
   border-radius: 5px;
@@ -371,7 +374,7 @@ body {
   font-size: 3em;
   color: #ec6041;
 }
-@media screen and (max-height: 1100px) {
+@media screen and (max-height: 720px) {
   body {
     overflow-x: hidden;
   }
